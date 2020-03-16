@@ -1,0 +1,118 @@
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="scratch.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<div>
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-12"> </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-12"> </div>
+    </div>
+</div>
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-12"> </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-4"> </div>
+        <div class="col-md-3"><h1>Add new book.</h1></div>
+        <div class="col-md-5"></div>
+    </div>
+</div>
+
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-12"> </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-12"> </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-4"> </div>
+        <div class="col-md-4">
+
+            <form action="/action_page.php">
+                <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title"><br>
+    <label for="author">Author:</label><br>
+    <input type="text" id="author" name="author"><br><br>
+    <label for="isbn">ISBN:</label><br>
+    <input type="text" id="isbn"><br>
+    <input onclick="submitBook()" type="submit" value="Submit">
+</form>
+        </div>
+        <div class="col-md-4"> </div>
+</div>
+</div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-12"> </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-12"> </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <table id="book-table">
+
+            <thead>
+
+            <tr>
+                <th> ISBN</th>
+                <th> Title</th>
+                <th> Author</th>
+
+            </tr>
+
+
+            </thead>
+
+            <tbody id="book-table-body">
+
+
+            </tbody>
+
+        </table>
+
+
+
+    </div>
+
+<script src="book.js"> </script>
+
+    </body>
+
+</html>
